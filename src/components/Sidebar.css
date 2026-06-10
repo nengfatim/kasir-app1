@@ -1,0 +1,57 @@
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: #111827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.logo-icon {
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center; /* bikin icon dan teks sejajar */
+  gap: 10px; /* jarak icon dan teks */
+  
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.menu-item.active {
+  background: #2563eb;
+}
+
+
+.logout {
+  background: #ef4444;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
