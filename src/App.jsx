@@ -5,7 +5,7 @@ import Dashboard from "./Pages/Dashboard";
 import Transaksi from "./Pages/Transaksi";
 import Produk from "./Pages/Produk";
 import Laporan from "./Pages/Laporan";
-import struk from "./Pages/Struk";
+import struk from "./Pages/struk";
 
 function App() {
   return (
@@ -13,9 +13,9 @@ function App() {
       <Route path="/" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/transaksi" element={<Transaksi />} />
-      <Route path="/struk" element={<Receipt />} />
       <Route path="/produk" element={<Produk />} />
       <Route path="/laporan" element={<Laporan />} />
+       <Route path="/struk" element={<struk />} />
     </Routes>
   );
 }
