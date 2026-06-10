@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Transaksi from "./pages/Transaksi";
-import Produk from "./pages/Produk";
-import Laporan from "./pages/Laporan";
-import Receipt from "./pages/Struk";
+import Login from "./Pages/Login";
+import Dashboard from "./Pages/Dashboard";
+import Transaksi from "./Pages/Transaksi";
+import Produk from "./Pages/Produk";
+import Laporan from "./Pages/Laporan";
+import struk from "./Pages/Struk";
 
 function App() {
   return (
